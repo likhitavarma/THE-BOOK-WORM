@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top of the container */
+    align-items: center;
+    margin-top: 0;
+}
+
+#profileImage {
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide overflow to maintain circular shape */
+    margin-bottom: 5px; /* Add space below the image */
+    background: url('profile.png'); /* Provide a default image */
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+           
